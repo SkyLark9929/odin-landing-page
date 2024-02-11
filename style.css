@@ -2,6 +2,30 @@
 
 body {
     font-family: 'Roboto';
+    font-weight: regular;
+    font-size: 18px;
+    margin: 0px;
+}
+
+h1{
+    font-style: extra-bold;
+    font-size: 48px;
+    margin: 0px;
+}
+
+h2{
+    font-style: extra-bold;
+    font-size: 24px;
+}
+
+button{
+	color: inherit;
+	border: solid;
+	padding: 1% 2%;
+    border-radius: 10%/25%;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
 }
 
 /* || Typography */
@@ -24,4 +48,65 @@ body {
         src: url('Fonts/Roboto-Black.ttf');
         font-weight: 900;
         font-style: extra-bold;
+}
+
+/* || Header */
+#navbar_container{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    width: 80%;
+    color: #f9faf8;
+    display: flex;
+    align-items: center;
+}
+
+#header-logo{
+    flex-grow: 8;
+}
+
+.header_link{
+    text-decoration: none;
+    color: #e5e7eb;
+    font-style: regular;
+    flex-grow: 1;
+}
+
+/* || Introducer */
+#inroducer_container{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.introducer{
+    width: 80%;
+    color: #f9faf8;
+    display: flex;
+    justify-content: stretch;
+}
+
+.introducer_text{
+    flex: 1;
+}
+
+.introducer_image_placeholder{
+    flex: 1;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#introducer_sign_up{
+    background-color: #3882F6;
+    border-color: #3882F6;
+    padding-left: 8%;
+    padding-right: 8%;
 }

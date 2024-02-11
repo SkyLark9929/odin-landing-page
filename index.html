@@ -7,26 +7,32 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!--Page header, contains logo and navbar-->
-    <header class="navbar"> <!-- cannot decide class or id-->
-        <h1 id="header-logo">Header Logo</h1>
-        <a href="", class="header_link">header link one</a>
-        <a href="", class="header_link">header link two</a>
-        <a href="", class="header_link">header link three</a>
-    </header>
+    <div id="navbar_container">
+        <!--Page header, contains logo and navbar-->
+        <header class="navbar"> <!-- cannot decide class or id-->
+            <h2 id="header-logo">Header Logo</h1>
+            <a href="", class="header_link">header link one</a>
+            <a href="", class="header_link">header link two</a>
+            <a href="", class="header_link">header link three</a>
+        </header>
+    </div>
 
-    <!--Introducer. Contains an introductory text, an image and sign up button-->
-    <div class="introducer">
-        <div>
-            <h1 class="introducer_header">This website is awesome</h1>
-            <p>
-                This website has some subtext that goes here under the main title.
-                It's a smaller font and the color is lower contrast
-            </p>
-            <div class="introducer_image_placeholder">
-                this is a placeholder for an image
+    <div id="inroducer_container">
+        <!--Introducer. Contains an introductory text, an image and sign up button-->
+        <div class="introducer">
+            <div class="introducer_text">
+                <h1 class="introducer_header">This website is awesome</h1>
+                <p>
+                    This website has some subtext that goes here under the main title.
+                    It's a smaller font and the color is lower contrast
+                </p>
+                <button id="introducer_sign_up">Sign up</button>
             </div>
-            <button id="introducer_sign_up">Sign up</button>
+            <div class="introducer_image_placeholder">
+                <p>
+                    this is a placeholder for an image
+                </p>
+            </div>
         </div>
     </div>
 
@@ -55,7 +61,7 @@
     <!--A callout that asks the customer to sign up once again-->
     <div class="callout_div">
         <div class="callout_subdiv_blue">
-            <h1>Call to action! It's time!</h1>\
+            <h2>Call to action! It's time!</h1>\
             <p>Sign up for our product by clicking that button right over there!</p>
             <button id="callout_sign_up">Sign up</button>
         </div>
