@@ -28,6 +28,10 @@ button{
 	outline: inherit;
 }
 
+p{
+    margin: 0px;
+}
+
 /* || Typography */
 @font-face {
     font-family: 'Roboto';
@@ -109,4 +113,48 @@ button{
     border-color: #3882F6;
     padding-left: 8%;
     padding-right: 8%;
+}
+
+/* || Info Block || */
+.info_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9faf8;
+}
+
+.info_header{
+    font-size: 36px;
+    color: #1f2937;
+    margin: 18px;
+}
+
+.picture_block{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 18px;
+    margin-bottom: 36px;
+}
+
+.picture_container{
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 18px;
+}
+.picture_container p{
+    text-align: center;
+}
+
+.picture_container div.info_image_placeholder{
+    width: 100px;
+    height: 100px;
+    border: solid;
+    border-width: 4px;
+    border-color: #3882F6;
+    border-radius: 25%;
 }
