@@ -5,6 +5,7 @@ body {
     font-weight: 400;
     font-size: 18px;
     margin: 0px;
+    background-color: #1f2937;
 }
 
 div{
@@ -14,7 +15,10 @@ div{
 h1{
     font-size: 48px;
     font-weight: 900;
-    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 h2{
@@ -33,7 +37,10 @@ button{
 }
 
 p{
-    margin: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 blockquote{
@@ -194,4 +201,44 @@ blockquote{
     align-self: flex-end;
     font-weight: 900;
     font-size: 24px;
+}
+
+/* || Callout */
+
+.callout_div{
+    background-color: #f9faf8;
+    display: flex;
+    justify-content: center;
+}
+
+.callout_subdiv_blue{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 2%;
+    background-color: #3882F6;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.callout_text{
+    color: #f9faf8;
+}
+
+#callout_sign_up{
+    border-color: #f9faf8;
+    color: #f9faf8;
+    background-color: #3882F6;
+}
+
+/* Page Footer */
+
+#page_footer{
+    height: 8vh;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
